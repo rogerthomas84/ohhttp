@@ -1,0 +1,19 @@
+{
+    "name": "rogerthomas84/ohhttp",
+    "description": "OhHttp is a HTTP Request and Response library for PHP",
+    "keywords": ["ohhttp", "php http", "http request", "http response"],
+    "homepage": "https://github.com/rogerthomas84/ohhttp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roger Thomas",
+            "email": "rogere84@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.7"
+    },
+    "autoload": {
+        "psr-0": { "OhHttp": "src" }
+    }
+}
