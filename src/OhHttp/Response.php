@@ -136,6 +136,7 @@ class Response
      * Set the response status
      * @param integer $status
      * @return Response
+     * @throws InvalidStatusCodeException
      */
     public function setStatus($status)
     {
